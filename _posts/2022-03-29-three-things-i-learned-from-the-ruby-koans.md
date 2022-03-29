@@ -1,11 +1,8 @@
----
-layout: post
-title: Three things I learned from The Ruby Koans
----
+# TIL stands for "Today I Learned"
 
-Here are (at least) three things I learned from [The Ruby Koans](http://rubykoans.com/):
+## _Here are (at least) three things I learned from [The Ruby Koans](http://rubykoans.com/):_
 
-## Session 1: 03/29/2022
+### Session 1: 03/29/2022
 
 - Markdown is a simplified markup language
 - 
