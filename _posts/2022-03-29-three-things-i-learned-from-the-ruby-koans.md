@@ -7,3 +7,18 @@
 ```
 YYYY-MM-DD-title.md
 ```
+- All blog post files must begin with front matter which is typically used to set a layout or other meta data. 
+
+```
+---
+layout: post
+title:  "Welcome to Jekyll!"
+---
+
+# Welcome
+
+**Hello world**, this is my first Jekyll blog post.
+
+I hope you like it!
+```
+- Commit your changes
