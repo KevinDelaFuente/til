@@ -3,11 +3,11 @@
 ## _Here are (at least) three things I learned from [The Ruby Koans](http://rubykoans.com/):_
 
 ### Creating Posts
-- To create a post, add a file to your `_posts` directory with the following format:
+1. To create a post, add a file to your `_posts` directory with the following format:
 ```
 YYYY-MM-DD-title.md
 ```
-- All blog post files must begin with front matter which is typically used to set a layout or other meta data. 
+2. All blog post files must begin with front matter which is typically used to set a layout or other meta data. 
 
 ```
 ---
@@ -21,4 +21,4 @@ title:  "Welcome to Jekyll!"
 
 I hope you like it!
 ```
-- Commit your changes
+3. Commit your changes
