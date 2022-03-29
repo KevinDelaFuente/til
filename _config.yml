@@ -3,7 +3,7 @@ title:               'Today I Learned'
 tagline:             'Notes to self about software development'
 description:         ''
 url:                 'https://KevinDelaFuente.github.io/'
-baseurl:             'AppDevBlog/'
+baseurl:             'til/'
 paginate:            5
 permalink:           pretty
 
