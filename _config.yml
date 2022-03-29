@@ -2,16 +2,16 @@
 title:               'Today I Learned'
 tagline:             'Notes to self about software development'
 description:         ''
-url:                 'https://appdev-projects.github.io/'
-baseurl:             'til/'
+url:                 'https://KevinDelaFuente.github.io/'
+baseurl:             'AppDevBlog/'
 paginate:            5
 permalink:           pretty
 
 # About/contact
-author:
-  name:              Raghu Betina
-  url:               https://twitter.com/raghubetina
-  email:             raghu@firstdraft.com
+author:               
+  name:              Kevin De la Fuente
+  url:               https://twitter.com/Le_Kev584
+  email:             kevin.delafuente@chicagobooth.com
 
 # Gems
 plugins:
