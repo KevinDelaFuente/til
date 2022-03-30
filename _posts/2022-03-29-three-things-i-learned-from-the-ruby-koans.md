@@ -22,3 +22,7 @@ title:  "Welcome to Jekyll!"
 I hope you like it!
 ```
 3. Commit your changes
+
+
+
+- Any non-false or non-nil object in Ruby will be evaluated as true, For example: 0, "", {}, are truthy.
