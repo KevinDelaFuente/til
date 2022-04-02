@@ -1,4 +1,4 @@
-#TIL 
+# TIL 
 
 ### Creating Posts
 1. To create a post, add a file to your `_posts` directory with the following format:
