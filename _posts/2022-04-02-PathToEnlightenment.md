@@ -23,6 +23,8 @@ title:  "Starting on the Path"
   - eql? -> Unlike the == operator which tests if both operands are equal, the equal method checks if the two operands refer to the same object. This is the strictest form of equality in Ruby.
   
 - Arrays
-  - _unshift_ and _push_ remove the first and last element of an array respectively
+  - _unshift_ and _push_ add the first and last element of an array respectively
   - _shift_ and _pop_ remove the first and last element of an array respectively
+  - Splat operator assigns the rest of elements to variable in parallel assignements: `first_nam`, *`last_name` = ["John", "Smith", "III"] will assign ["Smith", "III"] to `last_name`
+  - 
 
