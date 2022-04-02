@@ -25,4 +25,3 @@ I hope you like it!
 
 
 
-- Any non-false or non-nil object in Ruby will be evaluated as true, For example: 0, "", {}, are truthy.
