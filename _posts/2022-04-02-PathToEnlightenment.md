@@ -4,7 +4,7 @@ title:  "Starting on the Path"
 ---
 # TIL stands for "Today I Learned"
 ---
-## Questions raised from _[The Ruby Koans]_
+## Questions raised from _[The Ruby Koans](http://rubykoans.com/):_
 
 ### _about_strings.rb_
 - How does `EOS` work? Can any string encapsulate another string?
