@@ -18,12 +18,12 @@ title:  "Second Day on the Path to Ruby Enlightenment"
   | \t | a tab |
   | \w | a word including _ and digits |
   
-  | **Shortcut** | **Action** | **Example** |
-  |  |  |
-  |  |  |
-  |  |  |
-  |  |  |
-  |  |  |
+  | **Character** | **Action** | **Example** |
+  | ? | question_mark_means_optional | "abbcccddddeeeee"[/ab?/] -> 'ab' |
+  | + | plus_means_one_or_more | "abbcccddddeeeee"[/bc+/] -> 'bccc'|
+  | * | asterisk_means_zero_or_more | "abbcccddddeeeee"[/ab*/] -> 'abb' |
+  |  |  |  |
+  |  |  |  |
   
 ### Arrays
   - 
