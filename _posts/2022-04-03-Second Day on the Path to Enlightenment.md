@@ -1,14 +1,29 @@
 ---
 layout: post
-title:  "Second Day on the Path"
+title:  "Second Day on the Path to Ruby Enlightenment"
 ---
 
 ---
 ## _Here are the things I learned from [The Ruby Koans](http://rubykoans.com/):_
 
 ### Regexp
-  - **'Greedy'** means match longest possible string.
+  - **'Greedy'** means match longest possible string. For example: [/z*/], [/bc+/], [/ab?/]
   - **'Lazy'** means match shortest possible string.
+  - 
+  
+  | Shortcut | Meaning |
+  | \d | a digit |
+  | \s | a whitespace including \t and \n |
+  | \n | a return |
+  | \t | a tab |
+  | \w | a word including _ and digits |
+  
+  | Shortcut | Action | Example |
+  |  |  |
+  |  |  |
+  |  |  |
+  |  |  |
+  |  |  |
   
 ### Arrays
   - 
