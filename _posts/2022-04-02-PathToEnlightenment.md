@@ -38,7 +38,6 @@ title:  "Starting on the Path"
 - Why do we convert the list of symbols to strings and then compare against the string value rather than against symbols?
 
 ### Questions from _about_hashes.rb_
-- What exactly is the default value?
-  - It seems that as long as NO VALUE has been assigned to any key, any key will return the default value   
+- What exactly is the default value? It seems that as long as NO VALUE has been assigned to any key, any key will return the default value   
 ---
 
