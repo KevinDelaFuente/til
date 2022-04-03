@@ -13,17 +13,16 @@ title:  "Second Day on the Path to Ruby Enlightenment"
   
   | **Shortcut** | **Meaning** | **Example** |
   |:----------:|:--------------|:------|
-  | \d | a digit ||
-  | \s | a whitespace including \t and \n ||
+  | \d | a digit | "the number is 42"[/\d+/] -> '42' |
+  | \s | a whitespace including \t and \n | "space: \t\n"[/\s+/] -> " \t\n"|
   | \n | a return ||
   | \t | a tab ||
-  | \w | a word including _ and digits ||
-  | \A | anchors to the start of the string ||
-  | \z | anchors to the end of the string ||
+  | \w | a word including _ and digits | "variable_1 = 42"[/\w+/] -> 'variable_1' |
+  | \A | anchors to the start of the string | "start end"[/\Astart/] -> 'start' |
+  | \z | anchors to the end of the string | "start end"[/end\z/] -> 'end' |
   | \b | anchors to a word boundary | "bovine vines"[/\bvine./] -> "vines" |
   | scan | scan is like find all | "one two-three".scan(/\w+/) -> ["one", "two", "three"] |
-  | sub | | "one two-three".sub(/(t\w*)/) { $1[0, 1] } -> 
-  | gsub | |
+  | sub | sub_is_like_find_and_replace | "one two-three".sub(/(t\w*)/) { $1[0, 1] } -> |
   
   | **Character** | **Action** | **Example** |
   |:-------------:|:-----------|:------|
@@ -38,9 +37,20 @@ title:  "Second Day on the Path to Ruby Enlightenment"
   
 
   
-### Arrays
-  - 
-  - 
+### Control Operators
+  - A ternary operator is made of three parts, that’s where the word “ternary” comes from. These parts include a conditional statement & two possible outcomes. In other words, a ternary gives you a way to write a compact if/else expression in just one line of code.
+
+```
+if apple_stock > 1
+  :eat_apple
+else
+  :buy_apple
+end
+```
+
+```
+apple_stock > 1 ? :eat_apple : :buy_apple
+```
  
 
 ---
