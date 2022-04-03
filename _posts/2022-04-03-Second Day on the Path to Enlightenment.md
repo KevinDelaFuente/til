@@ -12,6 +12,7 @@ title:  "Second Day on the Path to Ruby Enlightenment"
   - 
   
   | **Shortcut** | **Meaning** |
+  |:----------:|-------------:|
   | \d | a digit |
   | \s | a whitespace including \t and \n |
   | \n | a return |
@@ -19,17 +20,14 @@ title:  "Second Day on the Path to Ruby Enlightenment"
   | \w | a word including _ and digits |
   
   | **Character** | **Action** | **Example** |
+  |:-------------:|:-----------|:------|
   | ? | question_mark_means_optional | "abbcccddddeeeee"[/ab?/] -> 'ab' |
   | + | plus_means_one_or_more | "abbcccddddeeeee"[/bc+/] -> 'bccc' |
   | * | asterisk_means_zero_or_more | "abbcccddddeeeee"[/ab*/] -> 'abb' |
   | . | period_is_a_shortcut_for_any_non_newline_character | "abc\n123"[/a.+/] -> 'abc' |
   | ^ | negation of a character | "the number is 42"[/[^0-9]+/] -> 'the number is' |
   
-  | Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+
   
 ### Arrays
   - 
