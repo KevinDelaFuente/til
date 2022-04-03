@@ -3,23 +3,7 @@ layout: post
 title:  "Starting on the Path"
 ---
 
-## Questions raised from _[The Ruby Koans](http://rubykoans.com/):_
----
-### Questions from _about_arrays.rb_
-- Is the syntax for ruby arrays array.[`index`, `#_of_elements`]? I think this is the case instead of a vector where the second argument is the _up to_ element you select in the array
-
-### Questions from _about_strings.rb_
-- How does `EOS` work? Can any string encapsulate another string?
-- What do the `<<` do?
-  - It actually  appends strings, but why does it modify also the `original_string`? is it because of `hi` = `original_string`?
-- Why do we convert the list of symbols to strings and then compare against the string value rather than against symbols?
-
-### Questions from _about_hashes.rb_
-- What exactly is the default value?
-  - It seems that as long as NO VALUE has been assigned to any key, any key will return the default value   
----
-
-## _Here are (at least) three things I learned from [The Ruby Koans](http://rubykoans.com/):_
+## _Here are the things I learned from [The Ruby Koans](http://rubykoans.com/):_
 
 ### Operators
   - Any non-false or non-nil object in Ruby will be evaluated as true, For example: 0, "", {}, are truthy.
@@ -38,5 +22,23 @@ title:  "Starting on the Path"
 ### Hashes
   - Why might you want to use #fetch instead of #[] when accessing hash keys? -> Because fetch _will_ let you know there is  no key instead of returning `nil`
   - When creating a new hash, if there are values assigned in it without a key, it will automatically be assigned to any empty by default 
-
 ---
+
+
+
+## Questions raised from _[The Ruby Koans](http://rubykoans.com/):_
+---
+### Questions from _about_arrays.rb_
+- Is the syntax for ruby arrays array.[`index`, `#_of_elements`]? I think this is the case instead of a vector where the second argument is the _up to_ element you select in the array
+
+### Questions from _about_strings.rb_
+- How does `EOS` work? Can any string encapsulate another string?
+- What do the `<<` do?
+  - It actually  appends strings, but why does it modify also the `original_string`? is it because of `hi` = `original_string`?
+- Why do we convert the list of symbols to strings and then compare against the string value rather than against symbols?
+
+### Questions from _about_hashes.rb_
+- What exactly is the default value?
+  - It seems that as long as NO VALUE has been assigned to any key, any key will return the default value   
+---
+
