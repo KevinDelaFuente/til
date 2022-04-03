@@ -20,21 +20,22 @@ title:  "Starting on the Path"
 ---
 
 ## _Here are (at least) three things I learned from [The Ruby Koans](http://rubykoans.com/):_
-- Operators
+
+### Operators
   - Any non-false or non-nil object in Ruby will be evaluated as true, For example: 0, "", {}, are truthy.
   - Single quoted strings DO NOT interpret escape characther e.g., '\n' will have lenght of two vs "\n" length of one
   - Single quoted strings DO NOT, e.g., 'The value is #{value}'
   - eql? -> Unlike the == operator which tests if both operands are equal, the equal method checks if the two operands refer to the same object. This is the strictest form of equality in Ruby.
   
-- Arrays
+### Arrays
   - _unshift_ and _push_ add the first and last element of an array respectively
   - _shift_ and _pop_ remove the first and last element of an array respectively
   - Splat operator assigns the rest of elements to variable in parallel assignements: `first_nam`, *`last_name` = ["John", "Smith", "III"] will assign ["Smith", "III"] to `last_name`
 
-- Objects
+### Objects
   - Object ID's for small integers follow a pattern of doubling the interger plus 1
 
--Hashes
+### Hashes
   - Why might you want to use #fetch instead of #[] when accessing hash keys? -> Because fetch _will_ let you know there is  no key instead of returning `nil`
   - When creating a new hash, if there are values assigned in it without a key, it will automatically be assigned to any empty by default 
 
