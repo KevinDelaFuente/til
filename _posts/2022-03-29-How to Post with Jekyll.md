@@ -1,6 +1,7 @@
 # TIL 
 
 ### Creating Posts
+---
 1. To create a post, add a file to your `_posts` directory with the following format:
 ```
 YYYY-MM-DD-title.md
@@ -10,4 +11,4 @@ YYYY-MM-DD-title.md
 3. Commit your changes
 
 
-
+---
