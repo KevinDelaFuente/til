@@ -2,8 +2,7 @@
 layout: post
 title:  "Second Day on the Path"
 ---
-# TIL stands for "Today I Learned"
----
+
 ## Questions raised from _[The Ruby Koans](http://rubykoans.com/):_
 ---
 ### Questions from _about_constants.rb_
@@ -14,11 +13,12 @@ title:  "Second Day on the Path"
 
 ---
 ## _Here are (at least) three things I learned from [The Ruby Koans](http://rubykoans.com/):_
-- Regexp
+
+### Regexp
   - **'Greedy'** means match longest possible string.
   - **'Lazy'** means match shortest possible string.
   
-- Arrays
+### Arrays
   - 
   - 
  
