@@ -2,8 +2,7 @@
 layout: post
 title:  "Starting on the Path"
 ---
-# TIL stands for "Today I Learned"
----
+
 ## Questions raised from _[The Ruby Koans](http://rubykoans.com/):_
 ---
 ### Questions from _about_arrays.rb_
