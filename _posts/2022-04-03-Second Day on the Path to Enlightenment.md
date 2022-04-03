@@ -11,14 +11,14 @@ title:  "Second Day on the Path to Ruby Enlightenment"
   - **'Lazy'** means match shortest possible string.
   - 
   
-  | Shortcut | Meaning |
+  | **Shortcut** | **Meaning** |
   | \d | a digit |
   | \s | a whitespace including \t and \n |
   | \n | a return |
   | \t | a tab |
   | \w | a word including _ and digits |
   
-  | Shortcut | Action | Example |
+  | **Shortcut** | **Action** | **Example** |
   |  |  |
   |  |  |
   |  |  |
