@@ -15,6 +15,9 @@ title:  "Starting on the Path"
   - It actually  appends strings, but why does it modify also the `original_string`? is it because of `hi` = `original_string`?
 - Why do we convert the list of symbols to strings and then compare against the string value rather than against symbols?
 
+### Questions from _about_hashes.rb_
+- What exactly is the default value?
+  - It seems that as long as NO VALUE has been assigned to any key, any key will return the default value   
 ---
 
 ## _Here are (at least) three things I learned from [The Ruby Koans](http://rubykoans.com/):_
