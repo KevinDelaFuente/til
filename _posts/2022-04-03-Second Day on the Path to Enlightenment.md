@@ -36,10 +36,10 @@ title:  "Second Day on the Path to Ruby Enlightenment"
   | () | parentheses_group_contents | "ahahaha"[/(ha)+/] -> 'hahaha' | 
   
 
-  
 ### Control Operators
   - A ternary operator is made of three parts, that’s where the word “ternary” comes from. These parts include a conditional statement & two possible outcomes. In other words, a ternary gives you a way to write a compact if/else expression in just one line of code.
 
+This...
 ```
 if apple_stock > 1
   :eat_apple
@@ -47,12 +47,14 @@ else
   :buy_apple
 end
 ```
-
+Becomes this...
 ```
 apple_stock > 1 ? :eat_apple : :buy_apple
 ```
  
-
+### Iterations
+  - Array.inject will pass each element of an array and will accumulate each sequentially
+  - 
 ---
 
 ## Questions raised from _[The Ruby Koans](http://rubykoans.com/):_
@@ -61,6 +63,9 @@ apple_stock > 1 ? :eat_apple : :buy_apple
 - Both nested class and subclasses inherit constants from enclosing and parent classes respectively. What are the differences between subclasses and nested classes 
 - What is the inheritance hierarchy? What is the lexical scope?
 - Why does the precedence change with specific scoping?
+
+### Questions from _about_control_statements.rb_
+- Difference between and && / or ||
 
 
 
