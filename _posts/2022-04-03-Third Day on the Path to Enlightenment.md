@@ -18,11 +18,30 @@ GFG
 55
 ```
   
-### 
+### CRUD in Class
+  - find_by(:column =>value)
+    - Same as .where().first
+    - Can return a record of a nil if not record matches
+
+  - find 
+    - alwasys looks in ID column
+    - Returns record
+    - In production will return a 404
+ 
   - 
 
-### Iterations
-  - 
+### Send
+  - _send_ is a ruby (without rails) method allowing to invoke another method by name. For example:
+
+```
+   class Klass
+     def hello(*args)
+       "Hello " + args.join(' ')
+     end
+   end
+   k = Klass.new
+   k.send :hello, "gentle", "readers"   #=> "Hello gentle readers"
+```
 
 
 ---
@@ -32,8 +51,6 @@ GFG
 ### Questions from _about_blocks.rb_
 - What exactly are blocks? What are the benefits of blocks over methods
 
-### Questions from _about_control_.rb_
-- 
 
 
 
