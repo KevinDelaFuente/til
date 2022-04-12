@@ -5,7 +5,11 @@ Title: Intro to Git and Scaffold
 
 ##Git
 - 
-
+| **Action** | **Git Command** | **Example** |
+  |:----------|:--------------|:------|
+  | git init | Initialize a repository |  |
+  | git add -A | Adds files to be commited | |
+  | git commit -m "Title" | Commits snapshot |
 
 ##Scaffold
 - Scaffold will generate a migration file, we should alway check it does what we want before migrating it 
