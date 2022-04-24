@@ -1,4 +1,4 @@
-# If statements
+# Flow control in Javascript
 
 - Basic Structure of `if` control flow
 
