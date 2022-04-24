@@ -11,7 +11,8 @@
 - _truthy_
   - everything else
 - Tips to avoid issues with these types:
-  1) Avoid direct comparisons in conditionals
+
+1) Avoid direct comparisons in conditionals
 
 ```javascript
 const username = '';
@@ -24,7 +25,7 @@ if (!username) {
 >no user
 ```
 
-  2) Use triple equals === (strict equals operator) vs lose equals operator == that coerces
+2) Use triple equals === (strict equals operator) vs lose equals operator == that coerces
 
 ```javascript
 if (null == undefined) {
@@ -36,7 +37,7 @@ if (null == undefined) {
 ```javascript
 >equals
 ```
-  3) Convert to real Boolean values where needed
+3) Convert to real Boolean values where needed
 
 ```javascript
 if (NaN === NaN) {
