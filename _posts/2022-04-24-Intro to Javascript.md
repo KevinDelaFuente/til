@@ -35,9 +35,22 @@ console.log('price', price);
 ```
 
 ## Template Literal
-
+- Use `$` to do text interpolation
 ```javascript
-let username = "Jane Doe";
-let message = `Hi ${username}, how are you?`;
-console.log(message);
+const weight = 150;
+const moonWeight = `You weigh ${weight * 0.165} pounds on the moon`;
+console.log(moonWeight);
+```
+```
+›You weigh 24.75 pounds on the moon
+```
+
+- Additionally, to insert line breaks we can use template literals. For example:
+```javascript
+const threeLines = "This is a string \n that spans \r across three lines.";
+//vs
+const threeLines = `This is a string 
+that spans across 
+three lines.
+`;
 ```
