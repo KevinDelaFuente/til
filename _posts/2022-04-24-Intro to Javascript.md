@@ -15,6 +15,8 @@
 
 ## Block Scoping
 - Variable Shadowing means that variables with the same name in a function scope will shadow global var. Nevertheless, `let` and `const` are block-scoped
+
+
 ```javascript
 var price = 20;
 var isSale = true;
@@ -36,6 +38,8 @@ console.log('price', price);
 
 ## Template Literal
 - Use `$` to do text interpolation
+
+
 ```javascript
 const weight = 150;
 const moonWeight = `You weigh ${weight * 0.165} pounds on the moon`;
@@ -46,6 +50,8 @@ console.log(moonWeight);
 ```
 
 - Additionally, to insert line breaks we can use template literals. For example:
+
+
 ```javascript
 const threeLines = "This is a string \n that spans \r across three lines.";
 //vs
