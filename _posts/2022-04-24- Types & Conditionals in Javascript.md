@@ -19,18 +19,18 @@ if (colorMode === 'solarized') {
   document.body.style.background = 'ghostwhite';
 }
 ```
-- Can be replaced with `switch`, where conditionals are replaced by cases and else with default :
+- Can be replaced with `switch`, where conditionals are replaced by cases and else with default. We also need to include `break` to avoid also running the default block. For example:
 
 ```javascript
-const colorMode = 'dark';
-
 switch (colorMode) {
   case "solarized":
    console.log('solarized mode set!'); 
    document.body.style.background = 'palegoldenrod';
+    break;
   case 'dark':
     console.log('dark mode set!');  
     document.body.style.background = 'black';
+    break;
   default:  
     console.log('light mode set!');
     document.body.style.background = 'ghostwhite';
