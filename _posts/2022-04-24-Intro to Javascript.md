@@ -14,8 +14,8 @@
    - const - creates restrictions that make code more readable. However keep in mind that `const` 1) must be initialized with a value, and 2) can't be reassigned after declaration  
 
 ## Block Scoping
-- 
-```
+- Variable Shadowing means that variables with the same name in a function scope will shadow global var. Nevertheless, `let` and `const` are block-scoped
+```javascript
 var price = 20;
 var isSale = true;
 
