@@ -33,3 +33,11 @@ console.log('price', price);
 ›sale price,18
 ›price,18
 ```
+
+## Template Literal
+
+```javascript
+let username = "Jane Doe";
+let message = `Hi ${username}, how are you?`;
+console.log(message);
+```
