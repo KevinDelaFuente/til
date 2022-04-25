@@ -31,7 +31,8 @@ add();
 
 - To create an arrow function with don't need a name nor the function keyword but only a `=>` after the parameters that points towards the body
 - `return` is implicit, so the arrow functions will return the evaluation of the body
-- For example:
+
+
 ```javascript
 //These 2 functions are equivalent
 
