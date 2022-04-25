@@ -32,3 +32,27 @@ displayUserBio()
 ```
 ›Reed is a Programmer
 ```
+# Mergin Objects
+- We can use Object.assign(object, newObject) to merge information while preserving the defaults
+- Since objecta are passed by reference instead of value, we don't want to merge new values into the original object but a new one
+
+```javascript
+const user = {
+  name: "",
+  username: "",
+  phoneNumber: "",
+  email: "",
+  password: ""  
+};
+
+const newUser = {
+  username: "ReedBarger",
+  email: "reed@gmail.com",
+  password: "mypassword"  
+};
+
+console.log(Object.assign({}, user, newUser));
+```
+```
+{name: "", username: "ReedBarger", phoneNumber: "", email: "reed@gmail.com", password: "mypassword"}
+```
