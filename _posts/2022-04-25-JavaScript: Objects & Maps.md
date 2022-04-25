@@ -53,6 +53,6 @@ const newUser = {
 
 console.log(Object.assign({}, user, newUser));
 ```
-```
+```javascript
 {name: "", username: "ReedBarger", phoneNumber: "", email: "reed@gmail.com", password: "mypassword"}
 ```
