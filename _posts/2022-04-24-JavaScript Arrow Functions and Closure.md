@@ -4,7 +4,6 @@
 2) Closures are a property of JavaScript functions 
 3) Call function in different scope than where function was original defined
 
-For example: 
 
 ```javascript
 const add = (function () {
