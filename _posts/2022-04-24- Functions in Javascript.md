@@ -12,6 +12,11 @@ add();
 add();
 add();
 ```
+```
+1
+2
+3
+```
 
 - The variable add is assigned to the return value of a self-invoking function. 
 - The self-invoking function only runs once. It sets the counter to zero (0), and returns a function expression.
