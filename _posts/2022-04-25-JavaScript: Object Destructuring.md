@@ -12,14 +12,23 @@ const user = {
   }  
 };
 
-const { username, email } = user;
+// const { title } = user.details
+const { name, details: { title} } = user;
 
-function displayUser() {
-  console.log(`username: ${username}, email: ${email}`);  
+function displayUserBio() {
+  console.log(`${name} is a ${title}`); 
 }
 
-displayUser()
+displayUserBio()
+
+// const { username, email } = user;
+
+// function displayUser() {
+//   console.log(`username: ${username}, email: ${email}`);  
+// }
+
+// displayUser()
 ```
 ```
-username: Reedbarger, email: reed@gmail.com
+›Reed is a Programmer
 ```
