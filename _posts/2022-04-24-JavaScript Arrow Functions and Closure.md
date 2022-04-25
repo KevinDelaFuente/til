@@ -37,11 +37,10 @@ add();
 //These 2 functions are equivalent
 
 const username = 'john';
+
 function capitalizeName(name) {
   return `${name.charAt(0).toUpperCase()}${name.slice(1)}`;  
 }
 
-const username = 'john';
 const capitalize = name => `${name.charAt(0).toUpperCase()}${name.slice(1)}`;
- console.log(capitalize(username));
  ```
