@@ -20,3 +20,6 @@ function displayUser() {
 
 displayUser()
 ```
+```
+username: Reedbarger, email: reed@gmail.com
+```
