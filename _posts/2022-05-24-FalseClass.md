@@ -1,0 +1,1 @@
+In ruby `false` is an instance of the `FalseClass`, when creating database default values, I should use the instance instead of the class. Otherwise I'll get an unitialized error in the rails migration.
